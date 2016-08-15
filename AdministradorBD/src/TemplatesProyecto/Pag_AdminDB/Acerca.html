@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <!-- Adaptar a pantallas moviles -->
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    
+     <div class="container">
+        <div class="jumbotron">
+            <h1>AdministradorDB</h1>
+        </div>
+    </div>
+    
+    
+    <div class="container" id="main-content">
+        <div class="row">
+            <article>
+                <div class="col-xs-12">
+                    <h1>Ejemplos de uso</h1>
+                    <h3>Login de Usuario</h3>
+                    <br>
+                    <p>Para crear la conexion de usuario es necesario abrir el programa AdministradorDB, en la parte superior
+                    donde se encuentran los botones. Se debe dar click en el boton <strong>+</strong>
+                    </p>
+                    <br>
+                    <img src="Sources/BtnConexion.JPG">
+                    <br>
+                    <p>Aparecera una ventana de login para poder utilizar dicho programa.</p>
+                    <br>
+                    <img src="Sources/PantallaLogin.JPG">
+                    <br>
+                    <p>Si ingresa el nombre de usuario y la contraseña. Luego se procede a dar click en el boton de conectar</p>
+                    <br>
+                    <p id="nota"><strong>Nota:</strong><br>Si al momento de iniciar sesion sucede algun error es porque ese usuario no existe en la base de datos,
+                    se recomienda que contacte con el administrador de la base de datos del mismo.</p>
+                    <br>
+                    <h3>Creacion de tablas</h3>
+                    <br>
+                    <p>Para crear una tabla, debes ir a la parte superior derecha donde encontraras el siguiente boton</p>
+                    <br>
+                    <img src="Sources/BtnCrearTabla.JPG">
+                    <br>
+                    <p>En la pantalla de creacion de tabla debes especificar el : nombre de la tabla, atributo asi como las diferentes caracteristicas que lo definen</p>
+                    <br>
+                    <img src="Sources/PantallaCrearTabla.JPG">
+                    <br>
+                    <p>Se debe dar click en el boton anadir+ para poder anadir el atributo a la tabla y posteriormente en el boton de crear para crear dicha tabla. Para seguir añadiendo mas atributos se de click en el boton añadir.</p>
+                    <br>
+                    <p id="nota"><strong>Nota:</strong><br>Para crear una nueva tabla se debe cerrar la pantalla de creacion de tablas y abrirla nuevamente</p>
+                    <br>
+                    <h3>Creacion de usuarios</h3>
+                    <br>
+                    <p>Para Crear un usuario debes ir a la parte superior donde se encontraras el siguiente boton</p>
+                    <br>
+                    <img src="Sources/BtnCrearUsuario.JPG">
+                    <br>
+                    <p>En la pantalla de creacion de usuario se escribe el nombre de usuario asi como la contraseñas del mismo. Tambien
+                    se debe otorgar roles y privilegios al usuario que crea</p>
+                    <br>
+                    <img src="Sources/PantallaCrearUsuario1.JPG">
+                    <br>
+                    <img src="Sources/PantallaCrearUsuario2.JPG">
+                    <br>
+                    <img src="Sources/PantallaCrearUsuario3.JPG">
+                    <br>
+                    <p id="nota"><strong>Nota:</strong><br>Debes tener en cuenta que si no tienes cierto privilegios en el usuario que te encuentras. No podras
+                    otorgarles al usuario que creas privilegios con los que no cuentas</p>
+                    <br>
+                    <h3>Area de las sentencias</h3>
+                    <br>
+                    <p>En la area de las sentencias puedes ejecutar cualquier sentencia de select, create table o user, update, disponible en la base de datos</p>
+                    <br>
+                    <img src="Sources/Sentencias.JPG">
+                    <br>
+                    <p id="nota"><strong>Nota:</strong><br>Se debe tener en cuenta que cualquier error que pueda ser producido sera por un error en la sintaxis por lo cual se recomienda revisar las sentencias sql antes de ejecutarlas</p>
+                    <br>
+    
+                </div>
+            </article>
+        </div>
+    </div>
+    
+     <footer id="main-footer">
+		<div class="container">
+			<div class="row">
+			   <div class="col-xs-12">
+                   <h4><em>Copyright “©” 2016. Todos los derechos reservados</em></h4>
+                   <p>Randy G. Dilone. Julio Delgado. Cristian Gomez E. Luis M. Bido.</p>
+               </div>
+		</div>
+       </div>
+   </footer>
+
+</body>
+</html>
